@@ -33,11 +33,12 @@ HTML Structure:
         [X] hovering shows start message
         [X] exiting hover / leaving the button should change a message
     
-    [ ] An input field to capture keyboard events EG:
-        [ ] display the latest key pressed
+    [X] An input field to capture keyboard events EG:
+        [X] display the latest key down pressed
+        [X] display the latest key up released
     
-    [ ] A simple form to handle form events. EG:
-       [ ] display a message when the form is submitted without refreshing the page
+    [X] A simple form to handle form events. EG:
+       [X] display a message when the form is submitted without refreshing the page
 
     [ ] An input field to handle focus and blur events EG:
         [ ] update a message when the input gains or loses focus.
@@ -47,7 +48,7 @@ HTML Structure:
 
 
 CSS Styling:
-[ ] Add minimal styling to visually separate each section.
+[*] Add minimal styling to visually separate each section.
     Your styling doesn’t need to be complex, 
     but it should make it easy to see where each interactive element is.
 
@@ -59,12 +60,12 @@ In your JavaScript file, write code to handle each of the specific events listed
     [X] Detect when a button is hovered over and when the hover ends. 
     [X] Display messages for each state.
 
-[ ] Keyboard Events: 
-    [ ] Capture input from a text field, displaying the last key pressed.
+[X] Keyboard Events: 
+    [X] Capture input from a text field, displaying the last key pressed.
 
-[ ] Form Events: 
-    [ ] Handle form submission, preventing the default behavior and
-    [ ] displaying a submission message.
+[X] Form Events: 
+    [X] Handle form submission, preventing the default behavior and
+    [X] displaying a submission message.
 
 [ ] Focus Events: 
     [ ] Update a message when an input field 
