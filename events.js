@@ -1,9 +1,5 @@
 // BUTT EVENTS
 
-
-// [ ] Keyboard Events:
-//     [ ] Capture input from a text field, displaying the last key pressed.
-
 // [ ] Form Events:
 //     [ ] Handle form submission, preventing the default behavior and
 //     [ ] displaying a submission message.
@@ -32,5 +28,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
   butt_mouse_hover.addEventListener("mouseout", () => {
     butt_mouse_message.textContent = "The Mouse has left the Button!";
+  });
+
+  // INPUT KEY EVENTS
+  const input_event_keys = document.getElementById("input_event_keys");
+  const input_event_keys_message = document.getElementById(
+    "input_event_keys_message"
+  );
+
+  input_event_keys.addEventListener("keydown", (event) => {
+    // NOTE PREVENT DEFAULT OVERKILL AT THIS POINT, SOLVING A PROBLEM THAT DOESN'T EXIST
+    // event.preventDefault();
+    input_event_keys_message.textContent = `KEY DOWN: ${event.key}`;
+  });
+  input_event_keys.addEventListener("keyup", (event) => {
+    // NOTE PREVENT DEFAULT OVERKILL AT THIS POINT, SOLVING A PROBLEM THAT DOESN'T EXIST
+    // event.preventDefault();
+    input_event_keys_message.textContent = `KEY UP: ${event.key}`;
   });
 });
