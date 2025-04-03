@@ -59,9 +59,26 @@ document.addEventListener("DOMContentLoaded", () => {
     const input_el = document.querySelector("#form_input");
 
     // SEND MESG WITH EL
-    form_event_message.textContent = `You submitted the form with value \n${input_el.value}!`;  
+    form_event_message.textContent = `You submitted the form with value \n${input_el.value}!`;
 
     // CLEAR EL
     input_el.value = "";
+  });
+
+  // INPUT FOCUS EVENTS
+  const input_focus_event = document.getElementById("input_focus_event");
+  const input_focus_event_message = document.getElementById(
+    "input_focus_event_message"
+  );
+
+  input_focus_event.addEventListener("focus", () => {
+    input_focus_event.value = "Now click somewhere else!";
+    input_focus_event_message.textContent = "Input got the focus!";
+  });
+
+  input_focus_event.addEventListener("blur", () => {
+    input_focus_event.value = "Click here!";
+    input_focus_event_message.textContent =
+      "Input lost the focus!\nAKA Became blurred.";
   });
 });
