@@ -2,6 +2,7 @@
 :root {
   --butt_bg: #000099;
   --butt_bg_hover: #0000cc;
+
   --border_light: #cccccc;
   --border_mid: #999999;
   --border_dark: #666666;
@@ -10,7 +11,10 @@
   --padding_md: 12px;
   --padding_lg: 24px;
 
+  --border_radius_sm: 6px;
   --border_radius_md: 24px;
+  
+  --bg_mid: #00aaaa;
 }
 
 /* ALL */
@@ -25,8 +29,7 @@ body {
 }
 
 /* EVENT BUTTS */
-button {
-  border-radius: 8px;
+button {  
   background-color: var(--butt_bg);
   border: 2px solid var(--border_light);
   color: var(--border_light);
@@ -39,19 +42,31 @@ button:hover {
 /* COMMON WIDTHS */
 button,
 input,
-pre {
+pre,
+section div {
   display: block;
   width: 100%;
   margin-inline: auto;
   max-width: 600px;
   padding: var(--padding_md);
   font-size: x-large;
+  margin-bottom: var(--padding_sm);
+}
+
+h2, p{
+    margin-block: 0 var(--padding_sm);
+}
+
+button,
+input {
+  border-radius: var(--border_radius_sm);
 }
 
 /* OUTPUT PRE */
 pre {
   min-height: 100px;
   border: 2px solid var(--border_dark);
+  background-color: var(--bg_mid);
 }
 
 /* PAGE SECTIONS */
@@ -73,7 +88,6 @@ section {
 }
 
 section,
-pre,
-input {
+pre {
   border-radius: var(--border_radius_md);
 }
