@@ -1,0 +1,35 @@
+/* ROOT VARS */
+:root {
+  --butt_bg: #000099;
+  --butt_bg_hover: #0000cc;
+  --border_light: #cccccc;
+  --border_dark: #666666;
+}
+
+/* ALL */
+/* * {
+    font-family: ;
+} */
+
+/* BODY */
+body {
+  font-family: sans-serif;
+}
+
+/* EVENT BUTTS */
+button {
+  padding: 24px;
+  border-radius: 8px;
+  background-color: var(--butt_bg);
+  border: 2px solid var(--border_light);
+  color: var(--border_light);
+}
+
+button:hover {
+  background-color: var(--butt_bg_hover);
+}
+
+/* OUTPUT PRE */
+pre {
+  min-height: 100px;
+}
