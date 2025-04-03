@@ -20,8 +20,8 @@ Git Commit Workflow:
 [X] Deployment on GitHub Pages:
 [X] Push your project to a GitHub repository.
 [X] Deploy the project using GitHub Pages.
-[ ] You should provide a live link to your deployed page.
-[ ] Verify that the deployed version functions as intended, with all event types working smoothly.
+[X] You should provide a live link to your deployed page.
+[X] Verify that the deployed version functions as intended, with all event types working smoothly.
 
 
 HTML Structure:
@@ -78,7 +78,6 @@ In your JavaScript file, write code to handle each of the specific events listed
 
 
 Submission 
-
-[ ] GitHub Repository Link: Submit the link to your GitHub repository.
-[ ] GitHub Pages Link: Provide the live URL of your deployed project.
-[ ] Commit Requirement: Ensure your repository has at least five meaningful commits.
+[X] GitHub Repository Link: Submit the link to your GitHub repository.
+[X] GitHub Pages Link: Provide the live URL of your deployed project.
+[X] Commit Requirement: Ensure your repository has at least five meaningful commits.
