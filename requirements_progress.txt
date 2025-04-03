@@ -2,16 +2,15 @@ Lab Requirements
 
 Git Commit Workflow:
 [X] Create a Git repository for your project 
-[*] commit your changes frequently.
-[ ] You are required to have at least five commits that reflect meaningful progress. EG:
-    [*] setting up HTML structure
-    [ ] adding each specific event handler
-    [ ] applying CSS styling
+[X] commit your changes frequently.
+[X] You are required to have at least five commits that reflect meaningful progress. EG:
+    [X] setting up HTML structure
+    [X] adding each specific event handler
+    [X] applying CSS styling
     [X] add requirements_progress.txt
 
-[*] Each commit message should clearly describe the change
-    [ ] Implemented mouse event for hover effect
-
+[X] Each commit message should clearly describe the change
+    [X] Implemented mouse event for hover effect
 
 [X] Note: Projects with fewer than five commits will automatically receive a grade of zero.
     This is to emphasize the importance of maintaining a detailed commit history, 
@@ -43,12 +42,12 @@ HTML Structure:
     [X] An input field to handle focus and blur events EG:
         [X] update a message when the input gains or loses focus.
 
-    [ ] A container with multiple buttons to demonstrate event delegation EG 
-       [ ] clicking any button inside the container displays its label or content
+    [X] A container with multiple buttons to demonstrate event delegation EG 
+       [X] clicking any button inside the container displays its label or content
 
 
 CSS Styling:
-[*] Add minimal styling to visually separate each section.
+[X] Add minimal styling to visually separate each section.
     Your styling doesn’t need to be complex, 
     but it should make it easy to see where each interactive element is.
 
@@ -72,10 +71,10 @@ In your JavaScript file, write code to handle each of the specific events listed
     [X] gains focus or
     [X] loses focus.
 
-[ ] Event Delegation: 
-    [ ] Use a container element with several buttons. 
-    [ ] Use event delegation to handle clicks on any button in the container
-    [ ] and display a unique message for each.
+[X] Event Delegation: 
+    [X] Use a container element with several buttons. 
+    [X] Use event delegation to handle clicks on any button in the container
+    [X] and display a unique message for each.
 
 
 Submission 
