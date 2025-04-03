@@ -81,4 +81,20 @@ document.addEventListener("DOMContentLoaded", () => {
     input_focus_event_message.textContent =
       "Input lost the focus!\nAKA Became blurred.";
   });
+
+  // WIP - DELEGATION ....HUNH, NEAT!
+  // https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events#event_delegation
+
+  const butt_container = document.getElementById("butt_container");
+  const butt_container_message = document.getElementById(
+    "butt_container_message"
+  );
+
+  butt_container.addEventListener("click", (event) => {
+    if (event.target.tagName === "BUTTON") {
+      butt_container_message.textContent = `Button clicked ID #${event.target.id}\n`;
+      butt_container_message.textContent += `Content [${event.target.textContent}]\n`;
+      butt_container_message.textContent += `\nSecret Data mesg:\n${event.target.dataset.secretMesg}`;
+    }
+  });
 });
