@@ -4,7 +4,7 @@ Git Commit Workflow:
 [X] Create a Git repository for your project 
 [*] commit your changes frequently.
 [ ] You are required to have at least five commits that reflect meaningful progress. EG:
-    [ ] setting up HTML structure
+    [*] setting up HTML structure
     [ ] adding each specific event handler
     [ ] applying CSS styling
     [X] add requirements_progress.txt
@@ -26,11 +26,12 @@ Git Commit Workflow:
 
 
 HTML Structure:
-[ ] Create a webpage with sections for various types of events.
+[X] Create a webpage with sections for various types of events.
     Your HTML file should include the following:
 
-    [ ] A button to demonstrate mouse events EG:
-        [ ] hovering and leaving the button should change a message)
+    [X] A button to demonstrate mouse events EG:
+        [X] hovering shows start message
+        [X] exiting hover / leaving the button should change a message
     
     [ ] An input field to capture keyboard events EG:
         [ ] display the latest key pressed
@@ -54,11 +55,26 @@ CSS Styling:
 JavaScript Event Handling:
 In your JavaScript file, write code to handle each of the specific events listed:
 
-[ ] Mouse Events: Detect when a button is hovered over and when the hover ends. Display messages for each state.
-[ ] Keyboard Events: Capture input from a text field, displaying the last key pressed.
-[ ] Form Events: Handle form submission, preventing the default behavior and displaying a submission message.
-[ ] Focus Events: Update a message when an input field gains or loses focus.
-[ ] Event Delegation: Use a container element with several buttons. Use event delegation to handle clicks on any button in the container and display a unique message for each.
+[X] Mouse Events: 
+    [X] Detect when a button is hovered over and when the hover ends. 
+    [X] Display messages for each state.
+
+[ ] Keyboard Events: 
+    [ ] Capture input from a text field, displaying the last key pressed.
+
+[ ] Form Events: 
+    [ ] Handle form submission, preventing the default behavior and
+    [ ] displaying a submission message.
+
+[ ] Focus Events: 
+    [ ] Update a message when an input field 
+    [ ] gains focus or
+    [ ]  loses focus.
+
+[ ] Event Delegation: 
+    [ ] Use a container element with several buttons. 
+    [ ] Use event delegation to handle clicks on any button in the container
+    [ ] and display a unique message for each.
 
 
 Submission 
