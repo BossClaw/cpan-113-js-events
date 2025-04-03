@@ -40,8 +40,8 @@ HTML Structure:
     [X] A simple form to handle form events. EG:
        [X] display a message when the form is submitted without refreshing the page
 
-    [ ] An input field to handle focus and blur events EG:
-        [ ] update a message when the input gains or loses focus.
+    [X] An input field to handle focus and blur events EG:
+        [X] update a message when the input gains or loses focus.
 
     [ ] A container with multiple buttons to demonstrate event delegation EG 
        [ ] clicking any button inside the container displays its label or content
@@ -67,10 +67,10 @@ In your JavaScript file, write code to handle each of the specific events listed
     [X] Handle form submission, preventing the default behavior and
     [X] displaying a submission message.
 
-[ ] Focus Events: 
-    [ ] Update a message when an input field 
-    [ ] gains focus or
-    [ ]  loses focus.
+[X] Focus Events: 
+    [X] Update a message when an input field 
+    [X] gains focus or
+    [X] loses focus.
 
 [ ] Event Delegation: 
     [ ] Use a container element with several buttons. 
