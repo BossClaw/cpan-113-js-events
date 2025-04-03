@@ -7,13 +7,13 @@
   --border_mid: #999999;
   --border_dark: #666666;
 
-  --padding_sm: 16px;
-  --padding_md: 12px;
-  --padding_lg: 24px;
+  --padding_sm: 6px;
+  --padding_md: 8px;
+  --padding_lg: 12px;
 
   --border_radius_sm: 6px;
-  --border_radius_md: 24px;
-  
+  --border_radius_md: 12px;
+
   --bg_mid: #00aaaa;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 /* EVENT BUTTS */
-button {  
+button {
   background-color: var(--butt_bg);
   border: 2px solid var(--border_light);
   color: var(--border_light);
@@ -53,8 +53,9 @@ section div {
   margin-bottom: var(--padding_sm);
 }
 
-h2, p{
-    margin-block: 0 var(--padding_sm);
+h2,
+p {
+  margin-block: 0 var(--padding_sm);
 }
 
 button,
@@ -90,4 +91,9 @@ section {
 section,
 pre {
   border-radius: var(--border_radius_md);
+}
+
+/* LAST TASK */
+#butt_container {
+  background-color: #fa0;
 }
