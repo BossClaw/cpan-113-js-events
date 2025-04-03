@@ -13,17 +13,50 @@
     <main>
       <!-- BUTTON MOUSE EVENTS -->
       <section>
+        <div>
+          <h2>Mouse Events</h2>
+          <p>
+            Hover your mouse over the mouse events button below to see the
+            enter/exit changes!
+          </p>
+        </div>
+
         <button id="butt_mouse_hover" class="butt_event">
           Mouse Events Button
         </button>
 
-        <pre id="butt_mouse_message"></pre>
+        <pre id="butt_mouse_message">Results will appear here...</pre>
       </section>
 
       <!-- INPUT KEY EVENTS -->
       <section>
-        <input id="input_event_keys" />
-        <pre id="input_event_keys_message"></pre>
+        <div>
+          <h2>Input Events</h2>
+          <p>
+            Type some characters into the input box below to see the last
+            keydown and keyup!
+          </p>
+        </div>
+
+        <input
+          id="input_event_keys"
+          placeholder="Type some characters here..."
+        />
+        <pre id="input_event_keys_message">Results will appear here...</pre>
+      </section>
+
+      <!-- FORM EVENTS -->
+      <section>
+        <div>
+          <h2>Form Events</h2>
+          <p>Type in a message and press submit to see your mesg!</p>
+        </div>
+
+        <form id="form_event">
+          <input id="form_input" placeholder="Type a message here" />
+          <button id="form_butt_submit" type="submit">Submit</button>
+        </form>
+        <pre id="form_event_message">Results will appear here...</pre>
       </section>
     </main>
   </body>

@@ -46,4 +46,22 @@ document.addEventListener("DOMContentLoaded", () => {
     // event.preventDefault();
     input_event_keys_message.textContent = `KEY UP: ${event.key}`;
   });
+
+  // FORM EVENTS
+  const form_event = document.getElementById("form_event");
+  const form_event_message = document.getElementById("form_event_message");
+
+  form_event.addEventListener("submit", (event) => {
+    // DO NOT SUBMIT IT
+    event.preventDefault();
+
+    // GET INPUT EL
+    const input_el = document.querySelector("#form_input");
+
+    // SEND MESG WITH EL
+    form_event_message.textContent = `You submitted the form with value \n${input_el.value}!`;  
+
+    // CLEAR EL
+    input_el.value = "";
+  });
 });
