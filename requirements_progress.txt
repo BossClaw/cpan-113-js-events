@@ -1,0 +1,68 @@
+Lab Requirements
+
+Git Commit Workflow:
+[X] Create a Git repository for your project 
+[*] commit your changes frequently.
+[ ] You are required to have at least five commits that reflect meaningful progress. EG:
+    [ ] setting up HTML structure
+    [ ] adding each specific event handler
+    [ ] applying CSS styling
+    [X] add requirements_progress.txt
+
+[*] Each commit message should clearly describe the change
+    [ ] Implemented mouse event for hover effect
+
+
+[X] Note: Projects with fewer than five commits will automatically receive a grade of zero.
+    This is to emphasize the importance of maintaining a detailed commit history, 
+    which is essential in real-world development.
+
+
+[X] Deployment on GitHub Pages:
+[X] Push your project to a GitHub repository.
+[X] Deploy the project using GitHub Pages.
+[ ] You should provide a live link to your deployed page.
+[ ] Verify that the deployed version functions as intended, with all event types working smoothly.
+
+
+HTML Structure:
+[ ] Create a webpage with sections for various types of events.
+    Your HTML file should include the following:
+
+    [ ] A button to demonstrate mouse events EG:
+        [ ] hovering and leaving the button should change a message)
+    
+    [ ] An input field to capture keyboard events EG:
+        [ ] display the latest key pressed
+    
+    [ ] A simple form to handle form events. EG:
+       [ ] display a message when the form is submitted without refreshing the page
+
+    [ ] An input field to handle focus and blur events EG:
+        [ ] update a message when the input gains or loses focus.
+
+    [ ] A container with multiple buttons to demonstrate event delegation EG 
+       [ ] clicking any button inside the container displays its label or content
+
+
+CSS Styling:
+[ ] Add minimal styling to visually separate each section.
+    Your styling doesn’t need to be complex, 
+    but it should make it easy to see where each interactive element is.
+
+
+JavaScript Event Handling:
+In your JavaScript file, write code to handle each of the specific events listed:
+
+[ ] Mouse Events: Detect when a button is hovered over and when the hover ends. Display messages for each state.
+[ ] Keyboard Events: Capture input from a text field, displaying the last key pressed.
+[ ] Form Events: Handle form submission, preventing the default behavior and displaying a submission message.
+[ ] Focus Events: Update a message when an input field gains or loses focus.
+[ ] Event Delegation: Use a container element with several buttons. Use event delegation to handle clicks on any button in the container and display a unique message for each.
+
+
+Submission 
+
+[ ] GitHub Repository Link: Submit the link to your GitHub repository.
+[ ] GitHub Pages Link: Provide the live URL of your deployed project.
+[ ] Commit Requirement: Ensure your repository has at least five meaningful commits.
